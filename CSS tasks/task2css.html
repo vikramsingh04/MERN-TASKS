@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2 CSS</title>
+    <style>
+        .ver{
+            list-style-type: none;
+            background-color: #ADD9E6;
+        }
+        #vernav{
+            padding: 1%;
+            width: 25%;
+            text-align: center;
+            border: 1px solid black;
+        }
+        .ver:hover{
+            background-color: orange;
+        }
+        .hor{
+            display: inline;
+            border-right: 2px solid blue;
+            margin: 1%;
+        }
+        .hor:hover{
+            background-color: rgb(131, 128, 128);
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(212, 207, 207);
+            width:30%;
+            /* padding: 1%; */
+        }
+        #hornav{
+            border: 1px solid black;
+            padding: 1%;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Vertical Navigation Bar</h2>
+    <nav id="vernav">
+        <ul class="ulver">
+            <li class="ver"><a href="">Home</a></li>
+            <li class="ver"><a href="">Java</a></li>
+            <li class="ver"><a href="">CSS</a></li>
+            <li class="ver"><a href="">HTML</a></li>
+            <li class="ver"><a href="">Bootstrap</a></li>
+        </ul>
+    </nav>
+    <h2>Horizontal Navigation Bar</h2>
+    <nav id="hornav">
+        <ul>
+            <li class="hor"><a href="">Home</a></li>
+            <li class="hor"><a href="">Java</a></li>
+            <li class="hor"><a href="">HTML</a></li>
+            <li class="hor"><a href="">CSS</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

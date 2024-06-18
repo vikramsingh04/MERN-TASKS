@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 CSS</title>
+    <style>
+        .main{
+            display: flex;
+            /* margin: 2%; */
+            border: 2px solid black;
+        }
+        .boxe{
+            width: 100px;
+            height: 100px;
+            border-radius: 0 10px 10px 0;
+            margin-right: 2%; 
+            border: none;
+            margin-bottom: 20%;
+            margin-top: 20%;
+        }
+        #boxe1{
+            background-color: green;
+        }
+        #boxe2{
+            background-color: blue;
+        }
+        #boxe3{
+            background-color: red;
+        }
+        #boxe4{
+            background-color: grey;
+        }
+        .boxe:hover{
+            width: 150px;
+            height: 150px;
+        }
+        .text-container {
+            padding: 20px; /* Adjust padding as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box-container">
+            <div class="boxe" id="boxe1"></div>
+            <div class="boxe" id="boxe2"></div>
+            <div class="boxe" id="boxe3"></div>
+            <div class="boxe" id="boxe4"></div>
+        </div>
+        <div class="text-container">
+            <h2>Hoverable SideNav Buttons</h2>
+            <p>Hover over the buttons in the left side navigation to open them</p>
+        </div>
+    </div>
+</body>
+</html>

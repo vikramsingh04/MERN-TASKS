@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <title>BS 5</title>
+  </head>
+  <body>
+    <div class="col-10 m-5 p-5" style="background-color: #F2F2F2;">
+        <form class="fw-bold was-validated" novalidate>
+            <div class="row mb-3">
+                <label for="fname" class="col-sm-2 col-form-label">First Name</label>
+                <div class="input-group input-group-sm mb-3 col">
+                    <span class="input-group-text" id="inputGroup-sizing-sm"><i class="bi bi-person-fill"></i></span>
+                    <input type="text" class="form-control" id="fname" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="First Name" required>
+                    <div class="invalid-feedback">Please supply your first name</div>
+                </div>  
+            </div>
+            <div class="row mb-3">
+                <label for="lname" class="col-sm-2 col-form-label">Last Name</label>
+                <div class="input-group input-group-sm mb-3 col">
+                    <span class="input-group-text" id="inputGroup-sizing-sm"><i class="bi bi-person-fill"></i></span>
+                    <input type="text" class="form-control" id="lname" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="Last Name" required>
+                    <div class="invalid-feedback">Please supply your last name</div>
+                </div>
+                
+            </div>
+            <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                <div class="input-group input-group-sm mb-3 col">
+                    <span class="input-group-text" id="inputGroup-sizing-sm"><i class="bi bi-person-fill"></i></span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="E-mail address" required>
+                    <div class="invalid-feedback"> Please supply your email address </div>
+                </div>    
+            </div>
+            <div class="row mb-3">
+                <label for="phone" class="col-sm-2 col-form-label">Phone #</label>
+                <div class="input-group input-group-sm mb-3 col">
+                    <span class="input-group-text" id="inputGroup-sizing-sm"><i class="bi bi-telephone-fill"></i></span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="(845)555-1212" required>
+                    <div class="invalid-feedback">Please supply your phone number</div>
+                </div>
+                
+            </div>
+            <div class="row mb-3">
+                <label for="addr" class="col-sm-2 col-form-label">Address</label>
+                <div class="input-group input-group-sm mb-3 col">
+                    <span class="input-group-text" id="inputGroup-sizing-sm"><i class="bi bi bi-house-fill"></i></span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="Address" required>
+                    <div class="invalid-feedback">Please supply your street address </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="city" class="col-sm-2 col-form-label">City</label>
+                <div class="input-group input-group-sm mb-3 col">
+                    <span class="input-group-text" id="inputGroup-sizing-sm"><i class="bi bi-house-fill"></i></span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="City" required>
+                    <div class="invalid-feedback">Please supply your city</div>
+                </div>
+                
+            </div>
+
+            <div class="row mb-3">
+                <label for="state" class="col-sm-2 col-form-label">State</label>
+                <div class="input-group input-group-sm mb-3 col">
+                    <span class="input-group-text"><i class="bi bi-list-ul"></i></span>
+                    <select class="form-select" aria-label="Default select example"placeholder="" required>
+                        <option value="1">Please select your state </option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select></div>
+            </div>
+            <fieldset class="row mb-3">
+            <legend class="col-form-label col-sm-2 pt-0">Do you have hosting?</legend>
+            <div class="col-sm-10">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"/>
+                <label class="form-check-label" for="gridRadios1">Yes</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2"/>
+                <label class="form-check-label" for="gridRadios2">No</label>
+            </div>
+            </div>
+        </fieldset>
+        <div class="row mb-3">
+                <label for="prode" class="col-sm-2 col-form-label">Project Description</label>
+                <div class="input-group input-group-sm mb-3 col">
+                    <span class="input-group-text"><i class="bi bi-pencil-fill"></i></span>
+                    <textarea class="col-sm-10" placeholder="Project Description"></textarea>
+                </div>
+        </div>
+        <div class="d-flex justify-content-center"><button type="submit" class="btn btn-warning text-white">Send <i class="bi bi-send"></i></button></div>
+        
+        </form>
+    </div>
+  </body>
+</html>
